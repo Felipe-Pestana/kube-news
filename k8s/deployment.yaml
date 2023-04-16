@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: pestana1984/kube-newsT:{{TAG}}
+        image: pestana1984/kube-news:{{TAG}}
         ports:
         - containerPort: 8080
         env:
